@@ -60,14 +60,10 @@ theme: bomberjam-docs
 deploy:
   type:
 
-optimize:
-  image_min: false
-  css_concat: false
-  css_min: false
-  js_concat: true
-  js_min: false
-  html_min: false
-  gzip: false
+all_minifier: true
+
+js_concator:
+  enable: true
 
 marked:
   breaks: false
