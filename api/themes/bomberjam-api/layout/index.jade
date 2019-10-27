@@ -1,0 +1,56 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+        title Bomberjam Documentation
+        link(rel='stylesheet' href='css/print.css' media="print")
+        link(rel='stylesheet' href='css/screen.css' media="screen")
+        link(rel='stylesheet' href='css/prism.css' media="screen")
+        script(src="js/lib/energize.js")
+        script(src="js/lib/jquery.js")
+        script(src="js/lib/jquery_ui.js")
+        script(src="js/lib/jquery.highlight.js")
+        script(src="js/lib/jquery.tocify.js")
+        script(src="js/lib/lunr.js")
+        script(src="js/lib/prism.js")
+        script(src="js/app/lang.js")
+        script(src="js/app/search.js")
+        script(src="js/app/toc.js")
+    body(class="index")
+        a#nav-button(href="#")
+            span
+                NAV
+                img(src="img/navbar.png")
+        .tocify-wrapper
+            .logo
+                a(href="https://bomberjam.com/")
+                    img(src="img/logo.png")
+                a(href="/api/").logo-text
+                    | API Documentation
+                    if is_ptr()
+                        | &nbsp;[ptr]
+            .search
+                input.search#input-search(type="text" placeholder="Search")
+            ul.search-results
+            if !is_ptr()
+                a.back(href="/index.html")
+                    | Back to docs
+                    img(src="img/link-external.svg")
+            #toc
+                #toc-loading Loading...
+
+        .page-wrapper
+            .dark-box
+            .content.api-content
+                h1.divider Global Objects
+                != page.pages['Game.md']
+                != page.pages['Player.md']
+                != page.pages['Bomb.md']
+                != page.pages['Bonus.md']
+                != page.pages['PathFinder.md']
+                != page.pages['constants.md']
+            .dark-box
+
+

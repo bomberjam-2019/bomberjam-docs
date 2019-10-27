@@ -1,0 +1,23 @@
+{
+  "name": "bomberjam-docs-api",
+  "version": "0.0.0",
+  "hexo": {
+    "version": "3.9.0"
+  },
+  "dependencies": {
+    "bomberjam-backend": "^1.0.3",
+    "concat-files": "^0.1.1",
+    "hexo": "^3.2.0",
+    "hexo-optimize": "^2.4.6",
+    "hexo-renderer-jade": "^0.3.0",
+    "hexo-renderer-marked": "screeps/hexo-renderer-marked",
+    "hexo-renderer-scss": "^1.2.0",
+    "hexo-server": "^0.2.0",
+    "image-min": "^0.3.2"
+  },
+  "scripts": {
+    "clean": "hexo clean",
+    "generate": "hexo clean && hexo generate",
+    "generate-watch": "hexo generate --watch"
+  }
+}
