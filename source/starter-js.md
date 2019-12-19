@@ -1,9 +1,9 @@
-title: Bomberjam Javascript Starter
+title: Bomberjam JavaScript Starter
 ---
 
-# Bomberjam Javascript Starter
+# Bomberjam JavaScript Starter
 
-Welcome to the Bomberjam Javascript Starter! In here you will find useful information about how to get started with training your bot, debugging its performance and seeing it play!
+Welcome to the Bomberjam JavaScript Starter! In here you will find useful information about how to get started with training your bot, debugging its performance and seeing it play!
 
 If at any point you have questions, don't hesitate to poke me! (Guillaume Docquier)
 

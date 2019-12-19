@@ -15,11 +15,11 @@ They will have to decide whether to go **left**, **right**, **up**, **down**, to
 
 Players **get points** by doing specific actions:
 
-* Destroying blocks
-* Hit another player with a bomb
-* Being the last player standing
+* Destroying blocks: **5 points**
+* Hit another player with a bomb: **20 points**
+* Being the last player standing: **50 points**
 
-Players **can also lose points** by getting hit by a bomb.
+Players **can also lose points** by getting hit by a bomb : **-10 points**
 
 ## Installation
 
