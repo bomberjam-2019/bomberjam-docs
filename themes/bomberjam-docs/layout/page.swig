@@ -21,7 +21,6 @@
               </footer>
             </div>
           </div>
-          {% if page.title != 'Overview' %}
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">{{ __('page.contents') }}</strong>
@@ -29,7 +28,6 @@
               <a href="#" id="article-toc-top">{{ __('page.back_to_top') }}</a>
             </div>
           </aside>
-          {% endif %}
         </div>
       </article>
       {{ partial('partial/sidebar') }}
