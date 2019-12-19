@@ -1,45 +1,34 @@
 title: Bomberjam C# Starter
 ---
 
-ML.Net documentation: https://docs.microsoft.com/en-us/dotnet/machine-learning/
+ML.NET documentation: https://docs.microsoft.com/en-us/dotnet/machine-learning/
 
-Voici le starter C# qui utilise Ml.net et un algorithme basé sur le decision tree (par défaut)
+Welcome to the Bomberjam .NET Starter, which uses decision tree based algorithms by default.
 
-## Où jouer dans le code?
+## Where to code?
 
-Plusieurs commentaires TODO ont été ajouté dans le codebase pour vous aider à vous retrouver.
+You'll find many `TODO` comments in the code to help you understand what to change.
 
-### 1. Préalable
+### 1. Prerequisites
 
-Partir le game-server de BomberJam localement. 
-
-Au root du repo, exécuter les commandes suivantes (faut node d'installer):
-* Installer les packages: "npm i"
-* Lancer le serveur: "npm run server"
-
-Le port affiché dans le terminal est celui a mettre dans config.json pour les parties en local.
-
+Having a local Bomberjam server running on your computer. Follow the installation steps in the Overview page.
 
 ### 2. TODO-Setup: 
 
-Les commentaires "// TODO-Setup" vont être nécéssaire pour rendre votre setup fonctionelle.
+`// TODO-Setup` comments need to be addressed in order to have your code working.
 
-**TODO-Setup-1**: Mettre à jour les path vers les parties enregistrées (gamelog)
+**TODO-Setup-1**: Set the path of unzipped gamelog files (saved games)
 
-ps: il faut unzip et enlever le folder macos
+**TODO-Setup-2**: Choose if the program must train a model or play a game in the browser.
 
-**TODO-Setup-2**: Choisir si le programme doit entrainer un modèle ou jouer une partie.
+### 3. TODO-Main: Extract features
 
+That's where you're going to spend most of your time as feature-engineering is the biggest challenge in machine learning.
 
-### 3. TODO-Main: Extraire les features
+**TODO-Main-2**: Utility functions
 
-Où vous allez passer la majorité de votre temps puisque le feature-engineering est le plus grand défi en machine learning.
+Basic implementation has been provided, but it has flaws. It's up to you to modify them or create more specialized functions ;)
 
-**TODO-Main-2**: Les méthodes utilitaires
+### 4. TODO-Extra: Go further
 
-Une implémentation de base a été fournit, mais elle a des défauts: est ce qu'il faut la modifier ou créer des méthodes plus spécialisée à vous de voir ;)
-
-
-### 4. TODO-Extra: Allez plus loins
-
-Des pistes potentielles pour se donner un edge par rapport aux autres équipes.
+Potential leads to explore in order to get extra advantages.
