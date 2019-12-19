@@ -21,6 +21,30 @@ Players **get points** by doing specific actions:
 
 Players **can also lose points** by getting hit by a bomb.
 
+## Installation
+
+**Prerequisites**:
+
+* Node.js 12.x
+* .NET Core 2.0+ if you plan to code in C#
+
+![Installation](img/installation.gif "Installation")
+
+1. Checkout the **starters git repository** at https://github.com/bomberjam-2019/bomberjam-starters
+
+2. Install Node.js dependencies using `npm install`
+
+3. Run Bomberjam server locally using `npm run server`
+
+4. Once the server is up and running, browse http://localhost:4321
+
+5. **Finish reading this page** and the read the one that match your chosen starter. Happy coding!
+
+```
+SSH: git clone git@github.com:bomberjam-2019/bomberjam-starters.git
+HTTPS: git clone https://github.com/bomberjam-2019/bomberjam-starters.git
+```
+
 ## The game state object
 
 ```json
