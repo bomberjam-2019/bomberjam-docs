@@ -1,10 +1,2 @@
-_:
-  Overview: /index.html
 Gameplay:
-  Introduction: /introduction.html
-Scripting:
-  Scripting Basics: /scripting-basics.html
-  Global Objects: /global-objects.html
-  Modules: /modules.html
-  Game Mechanics: /mechanics.html
-  Game Loop: /game-loop.html
+  Overview: /index.html

@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Bomberjam Documentation
+title: Bomberjam documentation
 subtitle:
 description:
 author: Code & Beer
@@ -12,10 +12,10 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://docs.bomberjam.com/
+url: https://bomberjam-2019.github.io
 root: /
 permalink: :title/
-game_url: https://bomberjam.com/
+game_url: https://bomberjam-2019.github.io
 
 permalink_defaults:
 
@@ -69,4 +69,4 @@ marked:
   breaks: false
   smartypants: false
 
-github: joseph-passineau/bomberjam-docs
+github: bomberjam-2019/bomberjam-docs

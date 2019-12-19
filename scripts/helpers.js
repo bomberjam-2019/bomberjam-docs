@@ -44,7 +44,7 @@ hexo.extend.helper.register('page_nav', function(){
 hexo.extend.helper.register('doc_sidebar', function(className){
   var sidebar = this.site.data.sidebar;
   var path = this.path;
-  var result = `<a href="/api/" class=api-link><span>API Reference</span><img src="/img/link-external.svg"></a>`;
+  var result = '';
   var self = this;
   var prefix = 'sidebar.';
 
