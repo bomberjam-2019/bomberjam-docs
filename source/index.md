@@ -124,3 +124,11 @@ Players get **permanent bonuses** by walking on them.
 |:-:|-|-|
 | **bomb** | Increases `player.maxBombs` property | ![Extra bomb](img/extra_bomb.png "Extra bomb")
 | **fire** | Increases `player.bombRange` property | ![Bomb range](img/bonus_fire.png "Bomb range")
+
+## Loading gamelog files
+
+A **gamelog file** is a save of all ticks of a game. Use the **Load gamelog file** link to load and replay a specific game.
+
+Saved gamelogs will be saved in the `gamelogs` subfolder of the starters repository. Use these to understand how your bot behave.
+
+![Gamelog loading](img/load-gamelog.gif "Gamelog loading")
