@@ -57,7 +57,7 @@ Code used by the starter to make your life easier. You do not need to edit this 
 
 ![Saved Models](img/evolve.gif)  
 
-Use this to start the process to eveole your bot.
+Use this to start the process to evolve your bot.
 This is where you should reference the model you want to use.
 Also, this is where you can configure the generationManager.
 
