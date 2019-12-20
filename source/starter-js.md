@@ -1,7 +1,6 @@
 title: Bomberjam JavaScript Starter
 ---
 
-# Bomberjam JavaScript Starter  
 Welcome to the Bomberjam JavaScript Starter! In here you will find useful information about how to get started with training your bot, debugging its performance and seeing it play!  
 
 If at any point you have questions, don't hesitate to poke me! (Guillaume Docquier)
@@ -123,7 +122,7 @@ In a bot folder, you should find 3 files:
 
 Note that you can organize the code how you want it. The only important part are the expected exports stated earlier.  
 
-## Prop tips
+## Pro tips
 - You can expect results after 20-30 minutes of training. If you do not start to see a good behaviour after that much training, do not try to train it longer. Focus on changing your your input data or your network.  
 - You are multiple people in your team, use your CPUs wisely!  
 - Look at your games! It is not because you have high accuracy or score that your bot performs well.  
